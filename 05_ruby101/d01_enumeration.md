@@ -1,11 +1,8 @@
-___
+## 4.1 Enumeration
 
-<strong>Ruby</strong>
-<h3>Enumeration in Ruby</h3>
+#### .each
 
----
-
-## .each:  Used to perform task on each element... but I don't need a new array
+* Used to perform task on each element... but I don't need a new array
 
 ```ruby
 names = ['Andy', 'Pandy', 'Dandy']
@@ -16,10 +13,14 @@ end
 
 names.each { |specific_name| puts specific_name.upcase }
 ```
-####    { is replacing the do
-####    } is replacing the end
 
-## .each: Returns the original array
+{ is replacing the do
+
+} is replacing the end
+
+## .each
+
+Returns the original array
 
 ```ruby
 same_as_original = names.each do |specific_name|
@@ -29,11 +30,14 @@ end
 same_as_original = names.each { |specific_name| puts specific_name.upcase }
 ```
 
-####    { is replacing the do
-####    } is replacing the end
+{ is replacing the do
+
+} is replacing the end
 
 
-## .map:  Used to perform task on each element, and I want a new array of modified data
+## .map
+
+Used to perform task on each element, and I want a new array of modified data
 
 ```ruby
 names = ['Andy', 'Pandy', 'Dandy']
@@ -46,7 +50,7 @@ names = ['Andy', 'Pandy', 'Dandy']
 initals = names.map {|name| name[0] }
 ```
 
-#Examples
+## Examples
 
 ```ruby
 three_woodstocks = 3.times.map{ |num| "Woodstock #{num}" }
@@ -63,7 +67,7 @@ funky_fresh = ['Hi', 'There'].reverse.map do |num|
 end.join('-').chars.reverse.join(':)')
 ```
 
-# Getting Weird
+## Getting Weird
 
 ```ruby
 names = ['Andy', 'Pandy', 'Dandy']
