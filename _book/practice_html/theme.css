@@ -1,0 +1,31 @@
+html, body {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+h1, h2, h3, p {
+  font-family: 'Oswald', sans-serif;
+}
+div {
+    float: left;
+    width: 26%;
+    padding: 2em;
+    /*margin-bottom: 3em;*/
+    /*text-align: center;
+    line-height: 1.5em;*/
+}
+div:hover {
+  background-color: green;
+}
+
+.column1 {
+  background-color: orange;
+}
+.column2 {
+  background-color: blue;
+}
+.column3 {
+  background-color: pink;
+}

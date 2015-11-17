@@ -1,0 +1,1641 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book WDI Chicago #3: Dragons -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Control Flow | WDI Chicago #3: Dragons</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.2.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../01_front_end_fundamentals/d02-stringconcat.html" />
+    
+    
+    <link rel="prev" href="../01_front_end_fundamentals/d02-datatypes-examples.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book" data-level="1.2.3" data-basepath=".." data-revision="Tue Nov 17 2015 12:27:28 GMT-0600 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction &amp; Syllabus
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="0_onboarding/welcome.html">
+            
+                
+                    <a href="../0_onboarding/welcome.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Welcome
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="0_onboarding/holidays.html">
+            
+                
+                    <a href="../0_onboarding/holidays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        Student Holidays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="0_onboarding/homework_submission.html">
+            
+                
+                    <a href="../0_onboarding/homework_submission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        Homework Submission
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="0_onboarding/class_library.html">
+            
+                
+                    <a href="../0_onboarding/class_library.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        Class Library
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.5" data-path="0_onboarding/required_software.html">
+            
+                
+                    <a href="../0_onboarding/required_software.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                        Required Software
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.6" data-path="0_onboarding/course_outline.html">
+            
+                
+                    <a href="../0_onboarding/course_outline.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                        Course Outline
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.7" data-path="0_onboarding/videos.html">
+            
+                
+                    <a href="../0_onboarding/videos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                        All Videos/Source Code
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01_front_end_fundamentals/index.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Front End Fundamentals
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01_front_end_fundamentals/d01.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        Mac Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        Terminal Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="01_front_end_fundamentals/d01_workhop_cli.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01_workhop_cli.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        Workshop: Star Wars Command Line
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01_front_end_fundamentals/d02.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Hello World
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01_front_end_fundamentals/d02-variables.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-variables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="01_front_end_fundamentals/d02-datatypes-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-datatypes-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        Data Types
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="01_front_end_fundamentals/d02-controlflow-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-controlflow-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.3.</b>
+                        
+                        Control Flow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="01_front_end_fundamentals/d02-stringconcat.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-stringconcat.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.4.</b>
+                        
+                        String Concatenation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="01_front_end_fundamentals/d02-arrays.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-arrays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.</b>
+                        
+                        Arrays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="01_front_end_fundamentals/d02-loops.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-loops.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.6.</b>
+                        
+                        Loops
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="01_front_end_fundamentals/d02-syntax.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-syntax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.7.</b>
+                        
+                        Syntax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="01_front_end_fundamentals/d02-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.8.</b>
+                        
+                        Homework: Markdown and Readmes
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01_front_end_fundamentals/d03.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Functions, Loops, Objects
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="01_front_end_fundamentals/d03-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.1.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="01_front_end_fundamentals/d04.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Drawing on the Web
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="01_front_end_fundamentals/d04-htmlcss.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-htmlcss.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.1.</b>
+                        
+                        HTML and CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="01_front_end_fundamentals/d04-dom.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-dom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.2.</b>
+                        
+                        The DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="01_front_end_fundamentals/d04-em-to-px.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-em-to-px.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.3.</b>
+                        
+                        Converting Pixels to EM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="01_front_end_fundamentals/d04-canvas.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-canvas.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.4.</b>
+                        
+                        Canvas
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="01_front_end_fundamentals/d05.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d05.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Second Pass Friday
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="01_front_end_fundamentals/d05-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d05-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.1.</b>
+                        
+                        Weekend Practice
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="01_front_end_fundamentals/d05-ah-bonus.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d05-ah-bonus.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.2.</b>
+                        
+                        Bonus Weekend Practice
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="02_oojs_jquery/index.html">
+            
+                
+                    <a href="../02_oojs_jquery/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Object Oriented JS &amp; jQuery
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="02_oojs_jquery/d01.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Objects and CSS
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="02_oojs_jquery/d01_me.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01_me.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.</b>
+                        
+                        Morning Review
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="02_oojs_jquery/d01-object-methods.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01-object-methods.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.</b>
+                        
+                        Object Methods
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="02_oojs_jquery/d01-objects-again.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01-objects-again.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.3.</b>
+                        
+                        this, hasOwnProperty, .keys
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="02_oojs_jquery/d02-html-css.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-html-css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.4.</b>
+                        
+                        HTML &amp; CSS Layouts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="02_oojs_jquery/d01-hw.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01-hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.5.</b>
+                        
+                        Homework: Layout Challenges
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02_oojs_jquery/d02.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Wireframe to Production
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="02_oojs_jquery/d02-me.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-me.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        Morning Exercise
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="02_oojs_jquery/d02-sass.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-sass.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        Sass &amp; CSS Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="02_oojs_jquery/d02-colourtheory.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-colourtheory.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Colour Theory 101
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="02_oojs_jquery/d02-fonts.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-fonts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.4.</b>
+                        
+                        Fonts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="02_oojs_jquery/d02-style-guide.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-style-guide.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.5.</b>
+                        
+                        Style Guides
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="02_oojs_jquery/d02-hw.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.6.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="02_oojs_jquery/d03.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Creating User Interface Components
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="02_oojs_jquery/d03-selectors.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-selectors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        Selectors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="02_oojs_jquery/d03-events.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-events.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        DOM Events
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="02_oojs_jquery/d03-components101.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-components101.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        Components 101
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="02_oojs_jquery/d03-constructors.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-constructors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.4.</b>
+                        
+                        Constructors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="02_oojs_jquery/d03-constructor-component.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-constructor-component.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.5.</b>
+                        
+                        Component Constructor Boilerplate
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="02_oojs_jquery/d03-videos.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-videos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.6.</b>
+                        
+                        Videos
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="02_oojs_jquery/d03-hw.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.7.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="02_oojs_jquery/d04.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Write Less &amp; Do More avec jQuery
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="02_oojs_jquery/d04-components-recap.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-components-recap.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.1.</b>
+                        
+                        Component Recap
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="02_oojs_jquery/d04-jquery.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-jquery.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.2.</b>
+                        
+                        jQuery
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="02_oojs_jquery/d04-jquery-boilerplate.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-jquery-boilerplate.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.3.</b>
+                        
+                        jQuery Boilerplate
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="02_oojs_jquery/d04-document-ready.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-document-ready.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.4.</b>
+                        
+                        document.ready
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="02_oojs_jquery/d04-hw.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.5.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="02_oojs_jquery/d05.html">
+            
+                
+                    <a href="../02_oojs_jquery/d05.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Second Pass Friday
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="03_advanced_front_end/index.html">
+            
+                
+                    <a href="../03_advanced_front_end/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Advanced Front End
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="03_advanced_front_end/d01_ajax.html">
+            
+                
+                    <a href="../03_advanced_front_end/d01_ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Ajax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="03_advanced_front_end/d01_ajax_in_depth.html">
+            
+                
+                    <a href="../03_advanced_front_end/d01_ajax_in_depth.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Ajax in Depth
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="03_advanced_front_end/d01_fellowship.html">
+            
+                
+                    <a href="../03_advanced_front_end/d01_fellowship.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Fellowship Solution
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="04_frontend_project/index.html">
+            
+                
+                    <a href="../04_frontend_project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Project #1
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="04_frontend_project/d01.html">
+            
+                
+                    <a href="../04_frontend_project/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Requesting Feedback
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="05_ruby101/index.html">
+            
+                
+                    <a href="../05_ruby101/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Ruby
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="06_fullstack_sinatra/index.html">
+            
+                
+                    <a href="../06_fullstack_sinatra/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Sinatra
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="07_pairprogramming_project/index.html">
+            
+                
+                    <a href="../07_pairprogramming_project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Project #2
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="08_fullstack_node/index.html">
+            
+                
+                    <a href="../08_fullstack_node/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Full Stack Node
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="09_backbonejs/index.html">
+            
+                
+                    <a href="../09_backbonejs/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Backbone.js
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="10_group_project/index.html">
+            
+                
+                    <a href="../10_group_project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        Project #3
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="11_rubyonrails/index.html">
+            
+                
+                    <a href="../11_rubyonrails/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        Ruby on Rails
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="12_reactjs/index.html">
+            
+                
+                    <a href="../12_reactjs/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        React.js
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="13_capstone_project/index.html">
+            
+                
+                    <a href="../13_capstone_project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Capstone Project
+                    </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >WDI Chicago #3: Dragons</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="1-2-lesson-examples-logical-operators-and-control-flow">1.2 Lesson Examples: Logical operators and control flow</h2>
+<p>JavaScript supports a compact set of statements, specifically control flow statements, that you can use to incorporate a great deal of interactivity in your application.</p>
+<p><br></p>
+<h4 id="block-statements">Block Statements</h4>
+<p>Statements meant to be executed after a control flow operation will be grouped into what is called a <strong>block statement</strong>. These statements are wrapped into a pair of curly braces:</p>
+<pre><code>{
+  console.log(&quot;hello&quot;);
+  console.log(&quot;roar&quot;);
+}
+</code></pre><h4 id="block-scope">Block scope</h4>
+<p>We&apos;ve seen that the scope in JavaScript changes often. In the case of <strong>block statements</strong>, there is no scope created.</p>
+<pre><code>var name = &quot;james&quot;;
+{
+  var name = &quot;adriana&quot;;
+}
+console.log(x); // outputs gerry
+</code></pre><p>Only functions introduce scope in Javascript.</p>
+<h2 id="conditional-statements">Conditional statements</h2>
+<p>Conditional statements are a way of essentially skipping over a block of code if it does not pass a boolean expression. JavaScript supports two conditional statements: <code>if</code>...<code>else</code> and <code>switch</code>.</p>
+<h4 id="if-else-statement">if...else statement</h4>
+<p><code>if(expr) { code }</code></p>
+<p>... means run the <code>code</code> block if <code>expr</code> is <code>true</code></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-number">1</span> &gt; <span class="hljs-number">0</span>) { <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;hi&quot;</span>) }
+<span class="hljs-comment">//=&gt; hi</span>
+</code></pre>
+<p>When you need to test more than one case, you may use <code>else if</code>:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> name = <span class="hljs-string">&quot;kittens&quot;</span>;
+<span class="hljs-keyword">if</span> (name == <span class="hljs-string">&quot;puppies&quot;</span>) {
+  name += <span class="hljs-string">&quot;!&quot;</span>;
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (name == <span class="hljs-string">&quot;kittens&quot;</span>) {
+  name += <span class="hljs-string">&quot;!!&quot;</span>;
+} <span class="hljs-keyword">else</span> {
+  name = <span class="hljs-string">&quot;!&quot;</span> + name;
+}
+name == <span class="hljs-string">&quot;kittens!!&quot;</span>
+<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<p><strong>Note</strong>: It is recommended <strong>to not</strong> assign variables in the conditional expression, because the assignment of a value to a variable, like this:</p>
+<pre><code class="lang-javascript">student = <span class="hljs-string">&quot;Jason&quot;</span>;
+<span class="hljs-comment">//=&gt; &quot;Jason&quot;</span>
+</code></pre>
+<p>The expression above will return the value (as shown on the second line), so if you assign a truthy value inside a conditional statement, then this condition will always be true, or if you assign something undefined, it will make the conditional statement false (because undefined is falsy). Another potential issue with this is that it can be confused with equality(<code>==</code>). The example below is the illustration of WHAT NOT TO DO, in general:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (x = <span class="hljs-number">3</span>) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;boo&quot;</span>);
+}
+</code></pre>
+<h2 id="truthy-falsy">Truthy &amp; Falsy</h2>
+<h4 id="all-of-the-following-become-false-when-converted-to-a-boolean">All of the following become false when converted to a Boolean</h4>
+<ul>
+<li><code>false</code></li>
+<li><code>0</code></li>
+<li><code>&quot;&quot;</code> (empty string)</li>
+<li><code>NaN</code></li>
+<li><code>null</code></li>
+<li><code>undefined</code></li>
+</ul>
+<h4 id="all-other-values-become-true-when-converted-to-a-boolean">All other values become true when converted to a Boolean</h4>
+<p>Do not confuse the primitive boolean values <code>true</code> and <code>false</code> with the true and false values of the Boolean object. For example:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> b = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Boolean</span>(<span class="hljs-literal">false</span>);
+<span class="hljs-keyword">if</span> (b) { <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;true&quot;</span>) }
+<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<p>There is a simple way of verifying the thruthyness or falsiness of a value. When you add <code>!</code> in front of a value, the returned value will be the inverse of the value in a boolean. So if you add two <code>!</code> then you&apos;ll get the boolean value of the original one:</p>
+<pre><code class="lang-javascript">!!<span class="hljs-number">1</span>
+<span class="hljs-comment">//=&gt; true</span>
+
+!!<span class="hljs-number">0</span>
+<span class="hljs-comment">//=&gt; false</span>
+
+!!-<span class="hljs-number">1</span>
+<span class="hljs-comment">//=&gt; true</span>
+
+!![]
+<span class="hljs-comment">//=&gt; true</span>
+
+!!{}
+<span class="hljs-comment">//=&gt; true</span>
+
+!!<span class="hljs-literal">null</span>
+<span class="hljs-comment">//=&gt; false</span>
+
+!!<span class="hljs-string">&quot;&quot;</span>
+<span class="hljs-comment">//=&gt; false</span>
+</code></pre>
+<h2 id="boolean-logical-operators">Boolean/Logical Operators</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators" target="_blank">Logical operators</a></p>
+<p>Logical operators will always return a boolean value <code>true</code> or <code>false</code>.</p>
+<p>There are two &quot;binary&quot; operators that require two values:</p>
+<ul>
+<li><strong>AND</strong>, denoted <code>&amp;&amp;</code></li>
+<li><strong>OR</strong>, denoted <code>||</code></li>
+</ul>
+<p>A third &quot;unary&quot; operatory requires only one value:</p>
+<ul>
+<li><strong>NOT</strong>, denoted <code>!</code></li>
+</ul>
+<h4 id="-and">&amp;&amp; (AND)</h4>
+<p>The <code>&amp;&amp;</code> operator requires both left and right values to be <code>true</code> in order to return <code>true</code>:</p>
+<pre><code class="lang-javascript"><span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">true</span>
+<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<p>Any other combination is false.</p>
+<pre><code class="lang-javascript"><span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">false</span>
+<span class="hljs-comment">//=&gt; false</span>
+
+<span class="hljs-literal">false</span> &amp;&amp; <span class="hljs-literal">false</span>
+<span class="hljs-comment">//=&gt; false</span>
+</code></pre>
+<h4 id="-or">|| (OR)</h4>
+<p>The <code>||</code> operator requires just one of the left or right values to be <code>true</code> in order to return true.</p>
+<pre><code class="lang-javascript"><span class="hljs-literal">true</span> || <span class="hljs-literal">false</span>
+<span class="hljs-comment">//=&gt; true</span>
+
+<span class="hljs-literal">false</span> || <span class="hljs-literal">true</span>
+<span class="hljs-comment">//=&gt; true</span>
+
+<span class="hljs-literal">false</span> || <span class="hljs-literal">false</span>
+<span class="hljs-comment">//=&gt; false</span>
+</code></pre>
+<p>Only <code>false || false</code> will return <code>false</code></p>
+<p>The <code>!</code> takes a value and returns the opposite boolean value, i.e.</p>
+<pre><code class="lang-javascript">!(<span class="hljs-literal">true</span>)
+<span class="hljs-comment">//=&gt; false</span>
+</code></pre>
+<p>The <code>&amp;&amp;</code> and <code>||</code> operators use short-circuit logic, which means whether they will execute their second operand is dependent on the first. This is useful for checking for null objects before accessing their attributes:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> name = o &amp;&amp; o.getName();
+</code></pre>
+<p>In this case, if the first operand <code>o</code> is false, then the second operand <code>o.getName()</code> will not be evaluated. The expression is basically saying &quot;we already know the whole <code>&amp;&amp;</code> expression is false, because <code>o</code> is falsey. Why bother dealing with the second operand?&quot;</p>
+<p>Or for setting default values:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> name = otherName || o.getName();
+</code></pre>
+<p>In this case, if the first operand <code>otherName</code> is false, then we&apos;ll see that <code>&quot;my name&quot;</code> will be returned. If othername is truthy (e.g. it contains a value), it will get returned, and the second expression won&apos;t even be evaluated. The expression is basically saying &quot;we already know the whole <code>||</code> expression is true, because <code>o</code> is truthy. Why bother dealing with the second operand?&quot;</p>
+<h2 id="comparison-operators">Comparison Operators</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators" target="_blank">Comparisons</a> in JavaScript can be made using <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code> and <code>&gt;=</code>. These work for both strings and numbers. This is both useful, and can be the source of frustration for some developers, since most languages do not implicitly convert strings to numbers the way that JavaScript does.</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&quot;A&quot;</span> &gt; <span class="hljs-string">&quot;a&quot;</span>
+<span class="hljs-comment">//=&gt; false</span>
+
+<span class="hljs-string">&quot;b&quot;</span> &gt; <span class="hljs-string">&quot;a&quot;</span>
+<span class="hljs-comment">//=&gt; true</span>
+
+<span class="hljs-number">12</span> &gt; <span class="hljs-string">&quot;12&quot;</span>
+<span class="hljs-comment">//=&gt; false</span>
+
+<span class="hljs-number">12</span> &gt;= <span class="hljs-string">&quot;12&quot;</span>
+<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<h4 id="equality-operator">Equality Operator <code>==</code></h4>
+<p>Equality is a bit more complex. There are 2 ways in JavaScript to verify equality.</p>
+<p>When verifying equality using double equal <code>==</code>, JavaScript does a lot of the &quot;type coercion&quot; in the background. Like we mentioned above, if the operands have a different type (ie: the number <code>1</code> and the string <code>&quot;1&quot;</code>), JavaScript will try to change the type of both operands to check whether they are equal. This means that a lot of times, expressions will return equal more easily than if we were stricter about what things were equivalent. Some examples:</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&quot;dog&quot;</span> == <span class="hljs-string">&quot;dog&quot;</span>;
+<span class="hljs-comment">//=&gt; true</span>
+
+<span class="hljs-number">1</span> == <span class="hljs-literal">true</span>;
+<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<h4 id="equality-operator">Equality Operator <code>===</code></h4>
+<p>To avoid type coercion and measure equality more strictly, <strong>use the triple-equals operator</strong>. Because <code>===</code> more truly measures actual equality, we&apos;ll use this far more often when checking whether too things are, in fact, the same thing.</p>
+<blockquote>
+<p><strong>Note:</strong> &quot;Sameness&quot; and &quot;equality&quot; have various definitions and can be somewhat &quot;fuzzy&quot;. They can also differ by programming language. Because you&apos;ll often be measuring whether two things are equal, you should investigate the way this works carefully.</p>
+</blockquote>
+<p>Some examples:</p>
+<pre><code class="lang-javascript"><span class="hljs-number">1</span> === <span class="hljs-literal">true</span>;
+<span class="hljs-comment">//=&gt; false</span>
+
+<span class="hljs-literal">true</span> === <span class="hljs-literal">true</span>;
+<span class="hljs-comment">//=&gt; true</span>
+
+<span class="hljs-string">&quot;hello&quot;</span> === <span class="hljs-string">&quot;hello&quot;</span>
+<span class="hljs-comment">//=&gt; true</span>
+</code></pre>
+<p>However, there are some incidents when it does not do what we expect, for example when working with empty objects or arrays:</p>
+<pre><code class="lang-javascript">{} === {}
+<span class="hljs-comment">//=&gt; Uncaught SyntaxError: Unexpected token ===</span>
+
+[] === []
+<span class="hljs-comment">//=&gt; false</span>
+
+[<span class="hljs-number">1</span>,<span class="hljs-number">7</span>] === [<span class="hljs-number">1</span>,<span class="hljs-number">7</span>]
+<span class="hljs-comment">//=&gt; false</span>
+</code></pre>
+<h2 id="switch-statement">Switch Statement</h2>
+<p>The switch statement can be used for multiple branches based on a number or string:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> food = <span class="hljs-string">&quot;apple&quot;</span>;
+
+<span class="hljs-keyword">switch</span>(food) {
+  <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;pear&apos;</span>:
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;I like pears&quot;</span>);
+    <span class="hljs-keyword">break</span>;
+  <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;apple&apos;</span>:
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;I like apples&quot;</span>);
+    <span class="hljs-keyword">break</span>;
+  <span class="hljs-keyword">default</span>:
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;No favourite&quot;</span>);
+}
+<span class="hljs-comment">//=&gt; I like apples</span>
+</code></pre>
+<p>In this case the <code>switch</code> statement compares <code>food</code> to each of the cases (<code>pear</code> and <code>apple</code>), and evaluates the expressions beneath them if there is a match. It uses <code>===</code> to evaluate equality.</p>
+<p>The default clause is optional.</p>
+<h2 id="iteration">Iteration</h2>
+<p>Iterating is a way of incrementally repeating a task.</p>
+<h4 id="for">for</h4>
+<p>You can iterate over an array with:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; a.length; i++) {
+  <span class="hljs-built_in">console</span>.log(i);
+}
+</code></pre>
+<p>This is slightly inefficient as you are looking up the length property once every loop. An improvement is to chain the <code>var</code> assignment:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, len = a.length; i &lt; len; i++) {
+  <span class="hljs-built_in">console</span>.log(i);
+}
+</code></pre>
+<p>Notice the placement of the comma and semi-colons.</p>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling" target="_blank">Control Flow</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank">While</a></li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../01_front_end_fundamentals/d02-datatypes-examples.html" class="navigation navigation-prev " aria-label="Previous page: Data Types"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../01_front_end_fundamentals/d02-stringconcat.html" class="navigation navigation-next " aria-label="Next page: String Concatenation"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book WDI Chicago #3: Dragons -->
+</html>
