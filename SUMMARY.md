@@ -72,6 +72,7 @@
     * [Ruby 101](05_ruby101/intro_to_ruby.md)
     * [Practice: Rups!](05_ruby101/d01-rups.md)
     * [Enumeration](05_ruby101/enumeration_in_ruby.md)
+    * [Single vs Double Quotes](05_ruby101/d01-single-double-quotes.md)
     * [Homework: Rups 2.0!](05_ruby101/d01-rups2.md)
 * [Sinatra](06_fullstack_sinatra/README.md)
 * [Project #2](07_pairprogramming_project/README.md)
