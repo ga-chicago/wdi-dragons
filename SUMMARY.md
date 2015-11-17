@@ -73,7 +73,7 @@
     * [Video: Pry](05_ruby101/d01_video.md)
     * [Conditionals](05_ruby101/d01_conditionals.md)
     * [Loops](05_ruby101/d01_loops.md)
-    * [Enumeration](05_ruby101/enumeration_in_ruby.md)
+    * [Enumeration](05_ruby101/d01_enumeration.md)
     * [Methods](05_ruby101/d01_methods.md)
     * [Single vs Double Quotes](05_ruby101/d01-single-double-quotes.md)
     * [Practice: Rups!](05_ruby101/d01-rups.md)
