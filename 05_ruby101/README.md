@@ -6,6 +6,7 @@ This week we are going to dive deep into the Ruby programming language!
 
 - Ruby Language: https://www.ruby-lang.org/en/
 - Ruby API Documentation: http://ruby-doc.org/core-2.2.2/
+- OverAPI: http://overapi.com/ruby/
 
 ## pry
 
