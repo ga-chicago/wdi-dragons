@@ -66,6 +66,7 @@
 * [Project #1](04_frontend_project/README.md)
   * [Requesting Feedback](04_frontend_project/d01.md)
 * [Ruby](05_ruby101/README.md)
+  * [Reading Recommendations](05_ruby101/d00.md)
   * [Introduction to Ruby](05_ruby101/d01.md)
     * [Dev Environment](05_ruby101/d01-env.md)
     * [Ruby 101](05_ruby101/intro_to_ruby.md)
