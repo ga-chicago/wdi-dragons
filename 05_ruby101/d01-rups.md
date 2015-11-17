@@ -1,89 +1,26 @@
-## 4.1 Ruby Practice - REPS!
+## 4.1 Ruby Rups!
 
-*It might be a REALLY good idea to take a look at your Javascript version...*
-*And also read the readme files in the `04_ruby` directory...*
-
-### Learning Objectives... or rather... REPS!!!!
-- ...REPS with creating methods
-- ...REPS with iteration
-- ...REPS with functions on numbers, strings, arrays
+### Round 1: Prime Time
+- Write a method called `prime?` that takes a single parameter called `number` and returns `true` if the parameter is a prime number, or `false` otherwise.
+- *Use* the `Math.sqrt` ...
 
 ---
 
-## Round 1
-Write a function `lengths` that accepts a single parameter as an argument, namely an array of strings. The function should return an array of numbers. Each number in the array should be the length of the corresponding string.
+### Round 2: Fardingworth Falls
 
-```ruby
-words = ["hello", "what", "is", "up", "dude"]
-lengths(words)  # => [5, 4, 2, 2, 4]
-```
+- Let's generate some random town names for a Tycoon-style video-game. We can do this by combining the following generic name fragments:
+* **Starts:** Bed, Brunn, Dun, Far, Glen, Tarn
+* **Middles:** ding, fing, ly, ston
+* **Ends:** borough, burg, ditch, hall, pool, ville, way, worth
 
----
+### Step 1
 
-## Round 2
+- Write a method called `town_names` that randomly generates a number of town names by combining one Start, one Middle, and one End. Calling `town_names(5)` should give an array of 5 town names. If just `town_names` is called, generate 3 names.
 
-Write a Ruby function called `transmogrifier`
-This function should accept three arguments, which you can assume will be numbers.
-Your function should return the "transmogrified" result
+### Step 2
 
-The transmogrified result of three numbers is the product (numbers multiplied together) of the first two numbers, raised to the power (exponentially) of the third number.
+- Modify the method so that calling `town_names(3, 'near_water')` will randomly add either "-on-sea" or " Falls" to each of the names. Optionally, think of another value that the second argument could have, and add appropriate random suffixes or prefixes when it is provided.
 
-For example, the transmogrified result of 5, 3, and 2 is `(5 times 3) to the power of 2` is 225.
+### Step 3
 
-Use your function to find the following answers.
-
-
-```ruby
-transmogrifier(5, 4, 3)
-transmogrifier(13, 12, 5)
-transmogrifier(42, 13, 7)
-```
----
-## Round 3
-
-Write a function called `toonify` that takes two parameters, `accent` and `sentence`.
-- If `accent` is the string `"daffy"`, return a modified version of `sentence` with all "s" replaced with "th".
-- If the accent is `"elmer"`, replace all "r" with "w".
-- Feel free to add your own accents as well!
-- If the accent is not recognized, just return the sentence as-is.
-
-
-```ruby
-
-toonify("daffy", "so you smell like sausage")
-#=> "tho you thmell like thauthage"
-
-```
----
-## Round 4
-
-Write a function `wordReverse` that accepts a single argument, a string. The method should return a string with the order of the words reversed. Don't worry
-about punctuation.
-
-```ruby
-wordReverse("Now I know what a TV dinner feels like")
-# => "like feels dinner TV a what know I Now"
-```
-
----
-
-## Round 5
-
-Write a function `letterReverse` that accepts a single argument, a string. The function should maintain the order of words in the string but reverse the letters in each word. Don't worry about punctuation. This will be very similar to round 4 except you won't need to split them with a space.
-
-```ruby
-letterReverse("Now I know what a TV dinner feels like")
-# => "woN I wonk tahw a VT rennid sleef ekil"
-letterReverse("Put Hans back on the line")
-# => "tuP snaH kcab no eht enil"
-```
----
-## Round 6
-
-Write a function `longest` that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return either.
-
-```javascript
-longest(["oh", "good", "grief"]) # => "grief"
-longest(["Nothing" , "takes", "the", "taste", "out", "of", "peanut", "butter", "quite", "like", "unrequited", "love"])
-# => "unrequited"
-```
+- Modify the method so that calling `town_names(3, 'short_name')` will always generate names without a Middle.
