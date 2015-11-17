@@ -67,6 +67,7 @@
   * [Requesting Feedback](04_frontend_project/d01.md)
 * [Ruby](05_ruby101/README.md)
   * [Introduction to Ruby](05_ruby101/d01.md)
+    * [Front-End Recap Quiz](05_ruby101/d01_frontendrecap.md)
     * [Dev Environment](05_ruby101/d01-env.md)
     * [Strings, Arrays, & Hashes](05_ruby101/d01_string_array_hash.md)
     * [Detecting Ruby Types](05_ruby101/d01_types.md)
