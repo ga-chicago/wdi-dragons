@@ -1,8 +1,4 @@
-___
-
-<strong>Ruby</strong>
-<h3> Inheritance via Classes</h3>
-
+## 4.2 Inheritance via Classes
 
 ```ruby
 #inheritance through space ships!

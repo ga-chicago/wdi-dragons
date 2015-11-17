@@ -1,9 +1,4 @@
-___
-
-<strong>Ruby</strong>
-<h3>Classes in Ruby</h3>
-
----
+## 4.2 Classes in Ruby
 
 ##Scope
 
