@@ -1,6 +1,6 @@
 ## 4.2 Classes in Ruby
 
-##Scope
+## Scope
 
   1. Defining a class
   2. Creating an instance of a class
