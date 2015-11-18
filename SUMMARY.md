@@ -85,6 +85,7 @@
     * [Movie Object](05_ruby101/d02_movie.md)
     * [Methods, Again](05_ruby101/d02_methods.md)
     * [Classes](05_ruby101/d02_classes_in_ruby.md)
+    * [Stephen's Class Notes](05_ruby101/d02_stephensnotes.md)
     * [Inheritance](05_ruby101/d02_inheritance_classes.md)
     * [Homework: Classes](05_ruby101/d02-hw.md)
 * [Sinatra](06_fullstack_sinatra/README.md)
