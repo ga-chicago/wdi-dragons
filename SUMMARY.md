@@ -100,6 +100,7 @@
     * [Ruby Q&A](05_ruby101/d04_rubyqa.md)
     * [Sinatra Second Pass](05_ruby101/d04_sinatra_2nd.md)
     * [Deploying to Heroku](05_ruby101/d04_heroku.md)
+    * [Homework](05_ruby101/d04_hw.md)
 * [Sinatra](06_fullstack_sinatra/README.md)
 * [Project #2](07_pairprogramming_project/README.md)
 * [Full Stack Node](08_fullstack_node/README.md)
