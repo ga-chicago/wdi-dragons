@@ -98,7 +98,7 @@
   * [Second Pass Friday](05_ruby101/d04.md)
     * [JSON](05_ruby101/d04_json.md)
     * [Ruby Q&A](05_ruby101/d04_rubyqa.md)
-    * [Sinatra Second Pass](05_ruby101/d04_sinatra_2nd.md)
+    * [Sinatra Second Pass](05_ruby101/d04_sinatra_again.md)
     * [Deploying to Heroku](05_ruby101/d04_heroku.md)
     * [Homework](05_ruby101/d04_hw.md)
 * [Sinatra](06_fullstack_sinatra/README.md)

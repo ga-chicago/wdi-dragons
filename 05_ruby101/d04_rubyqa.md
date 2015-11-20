@@ -1,5 +1,9 @@
 ## 4.4 Ruby Q&A
 
+#### Recap Video
+
+* https://www.youtube.com/watch?v=GHsJbm3m1fQ
+
 #### Classes
 
 ```ruby
