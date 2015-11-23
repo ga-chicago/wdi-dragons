@@ -111,6 +111,7 @@
     * [Postgres Cheatsheet](05_fullstack_sinatra\d01_postgres_cheatsheet.md)
     * [SQL Examples](05_fullstack_sinatra\d01_sql_examples.md)
     * [Lab: Twitter Migrations](05_fullstack_sinatra\d01_twitter_migrations.md)
+    * [Homework](05_fullstack_sinatra\d01_homework.md)
 * [Project #2](06_pairprogramming_project/README.md)
 * [Full Stack Node](07_fullstack_node/README.md)
 * [Backbone.js](08_backbonejs/README.md)

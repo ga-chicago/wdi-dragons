@@ -24,3 +24,11 @@
   * Facebook: users, likes, status_updates
   * Huffington Post: sections, articles, authors
   * Reddit: users, subreddits, votes
+
+#### 4. Adding and Querying Data
+
+* In a file called `add_query.sql`...
+* Create a new script with these commands (after testing these commands in the database).
+* In one of your database migrations created below, insert 10 rows of data into each table.
+* Select the first item of each table.
+* Select all of the items in a table.
