@@ -1,4 +1,4 @@
-## 4.2 ERD Relationships Diagram
+## 5.1 ERD Relationships Diagram
 
 #### ERD Example: Employee Database
 

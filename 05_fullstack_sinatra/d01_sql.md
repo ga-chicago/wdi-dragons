@@ -1,4 +1,4 @@
-## 4.2 Structured Query Language (SQL)
+## 5.1 Structured Query Language (SQL)
 
 #### Agenda
 

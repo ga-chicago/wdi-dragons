@@ -1,4 +1,4 @@
-## 4.1 SQL: Twitter Migrations
+## 5.1 SQL: Twitter Migrations
 
 Below is an example of a `migrations.sql`. It models out **Twitter**.
 

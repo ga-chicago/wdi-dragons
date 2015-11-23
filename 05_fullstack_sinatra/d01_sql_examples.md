@@ -1,4 +1,4 @@
-## 4.2 SQL Examples
+## 5.1 SQL Examples
 
 ```sql
 # create a table

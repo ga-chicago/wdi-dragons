@@ -1,6 +1,5 @@
-![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-## 4.2
+## 5.1 Introduction to Databases
 
 
 #### Agenda
