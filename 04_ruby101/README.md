@@ -1,4 +1,4 @@
-# Ruby 101
+# Part 4: Ruby 101
 
 This week we are going to dive deep into the Ruby programming language!
 

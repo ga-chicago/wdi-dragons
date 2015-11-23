@@ -1,1 +1,1 @@
-# Objected Oriented JS & jQuery
+# Part 2: Objected Oriented JS & jQuery

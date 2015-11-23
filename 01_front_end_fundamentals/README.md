@@ -1,1 +1,1 @@
-# Front End Fundamentals
+# Part 1: Front End Fundamentals

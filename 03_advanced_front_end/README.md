@@ -1,4 +1,4 @@
-# Advanced Front-End
+# Part 3: Advanced Front-End
 
 Over the past two weeks we have covered a lot of content. Some of the things we have covered are:
 
