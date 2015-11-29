@@ -8,6 +8,8 @@ We're going to build out wireframes for this application. To get started, we nee
 * Account Login
 * List of Shopping Items
 
+**Whatever you are unable to finish this morning should be completed during workshop time this afternoon.**
+
 #### Wireframe #1: Account Registration
 
 This wireframe must contain the following fields on a `registration` view:
@@ -51,7 +53,7 @@ Pretty much the same requirements as the registration, minus the double-password
 
 ---
 
-#### Wireframe #3: Shopping List 
+#### Wireframe #3: Shopping List
 
 We are going to need a few views for our shopping list. Those are:
 

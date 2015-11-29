@@ -1,4 +1,4 @@
-## 4.2 ERD Lab
+## 5.1 ERD Lab
 
 ![SQLDAY](sql_day_erd_exercise.jpg)
 
