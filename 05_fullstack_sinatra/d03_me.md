@@ -29,6 +29,8 @@ Upon submission, a user will either be auto-logged in + welcomed **or** warned t
 * Try registering again!
 * A link back to the registration page
 
+---
+
 #### Wireframe #2: Login
 
 Pretty much the same requirements as the registration, minus the double-password confirmation.
@@ -46,6 +48,8 @@ Pretty much the same requirements as the registration, minus the double-password
 * Something went wrong!
 * Try logging in again!
 * A link back to the login page
+
+---
 
 #### Wireframe #3: Shopping List 
 
