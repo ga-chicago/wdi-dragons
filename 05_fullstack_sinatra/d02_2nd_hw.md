@@ -1,4 +1,4 @@
-## 4.2 Bonus Homework: Dragon Latin
+## 5.2 Bonus Homework: Dragon Latin
 
 We're going to play around with Ruby! Let's imagine that we want to build a method that would check paragraphs of texts for words. Let's define a method that accepts in some blob of text (as a `String`) called `dragon_latin`.
 
