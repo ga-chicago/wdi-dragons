@@ -118,6 +118,7 @@
     * [Server Building in a Nutshell](05_fullstack_sinatra/d02_server_building_nutshell.md)
     * [Your App on a server](05_fullstack_sinatra/d02_app_on_server.md)
     * [Homework: FileReader](05_fullstack_sinatra/d02_hw.md)
+    * [Bonus Homework: Dragon Latin](05_fullstack_sinatra/d02_2nd_hw.md)
 * [Project #2](06_pairprogramming_project/README.md)
 * [Full Stack Node](07_fullstack_node/README.md)
 * [Backbone.js](08_backbonejs/README.md)
