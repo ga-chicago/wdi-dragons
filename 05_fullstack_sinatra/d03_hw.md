@@ -10,9 +10,8 @@
 You're to create an application of your own! This can be anything you want! However, you must meet the following technical requirements:
 
 * Migrations file should be created and tested. It should contain **three** tables.
-* A simple Sinatra application that contains **three** controllers.
-* Each controller must correspond to a specific model.
-* Each controller must render a View that lists **all** of the rows in a table.
-* Each controller must render an API that lists **all** of the rows in a table to JSON.
+* A simple Sinatra application that contains **three** routes.
+* Each **route** must correspond to a specific model.
+* Each **route** must render a View that lists **all** of the rows in a table converted to JSON.
 
-Get creative! You'll create this application in your `05_fullstack_sinatra/your_name/my_first_crud/` folder. 
+Get creative! You'll create this application in your `05_fullstack_sinatra/your_name/my_first_crud/` folder.
