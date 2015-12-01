@@ -111,3 +111,22 @@ end
 #### ActiveRecord's SQL Counterparts
 
 * http://guides.rubyonrails.org/active_record_querying.html
+
+
+#### How to connect to a Database
+
+*ActiveRecord*
+```ruby
+ActiveRecord::Base.establish_connection(
+  :database => 'our_db_name',
+  :adapter => 'postgresql'
+)
+Res.all
+```
+*Without ActiveRecord*
+```ruby
+require 'pg'
+conn = PGconn.open(:dbname => 'test')
+res  = conn.exec('SELECT 1 AS a, 2 AS b, NULL AS c')
+res.getvalue(0,0)
+```
