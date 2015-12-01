@@ -130,3 +130,7 @@ conn = PGconn.open(:dbname => 'test')
 res  = conn.exec('SELECT 1 AS a, 2 AS b, NULL AS c')
 res.getvalue(0,0)
 ```
+
+#### Escaping Characters
+
+To escape apostrophes within your string, just type another one before it. For example, `Doc B''s`
