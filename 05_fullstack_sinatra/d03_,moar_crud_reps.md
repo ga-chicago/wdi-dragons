@@ -10,4 +10,3 @@ We need *moar reps*. Let's run through our process again before jumping into ful
 5. Once our database is all set, create an application in Sinatra!
 6. This application should render all of the `songs` in our table on a page.
 7. Utilize Models (and ActiveRecord) and Views (ERB) to render them out!
-8. Create a pull request once everything is up-and-running!
