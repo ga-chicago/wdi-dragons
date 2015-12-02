@@ -132,6 +132,8 @@
     * [Bundling it Together](05_fullstack_sinatra/d04_bundling_it_together.md)
     * [Guide: CRUD from Scratch](05_fullstack_sinatra/d04_guide.md)
     * [CRUD Controllers](05_fullstack_sinatra/d04_crud_controller.md)
+  * [Relationship Advice](05_fullstack_sinatra/d05.md)
+    * [Homework](05_fullstack_sinatra/d05_hw.md)
 * [Project #2](06_pairprogramming_project/README.md)
 * [Full Stack Node](07_fullstack_node/README.md)
 * [Backbone.js](08_backbonejs/README.md)
