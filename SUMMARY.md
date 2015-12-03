@@ -136,6 +136,8 @@
     * [Homework](05_fullstack_sinatra/d05_hw.md)
   * [Security 101](05_fullstack_sinatra/d06.md)
     * [Server Side Authentication](05_fullstack_sinatra/d06_security101.md)
+    * [Account Models & BCrypt](05_fullstack_sinatra/d06_account_model.md)
+    * [Tux: Console for Sinatra](05_fullstack_sinatra/d06_tux.md)
 * [Project #2](06_pairprogramming_project/README.md)
 * [Full Stack Node](07_fullstack_node/README.md)
 * [Backbone.js](08_backbonejs/README.md)
