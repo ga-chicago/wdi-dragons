@@ -1,7 +1,7 @@
 
-#### 5.6 Server-side Authentication
+## 5.6 Server-side Authentication
 
-########Agenda
+####Agenda
 
 *	Quiz
 * So we have these secure resources
