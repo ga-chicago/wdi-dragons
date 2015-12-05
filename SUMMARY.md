@@ -163,7 +163,7 @@
 * [Backbone.js](08_backbonejs/README.md)
 * [Project #3](09_group_project/README.md)
 * [Ruby on Rails](10_rubyonrails/README.md)
-  * [Getting Started](10_rubyonrails/d00_rails_cheat_sheet.md)
+  * [Getting Started](10_rubyonrails/d00_getting_started.md)
   * [Rails Cheat Sheet](10_rubyonrails/d00_rails_cheat_sheet.md)
 * [React.js](11_reactjs/README.md)
 * [Capstone Project](12_capstone_project/README.md)
