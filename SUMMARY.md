@@ -154,6 +154,7 @@
     * [Many:Many & 1:Many Models with ActiveRecord](05_fullstack_sinatra/d07_relationships.md)
     * [Sending Emails with Mandrill](05_fullstack_sinatra/d07_mandrill.md)
 * [Project #2](06_pairprogramming_project/README.md)
+  * [Project Teams](06_pairprogramming_project/d00_project_teams.md)
 * [Full Stack Node](07_fullstack_node/README.md)
 * [Backbone.js](08_backbonejs/README.md)
 * [Project #3](09_group_project/README.md)
