@@ -140,6 +140,7 @@
     * [Account Models & BCrypt](05_fullstack_sinatra/d06_account_model.md)
     * [Tux: Console for Sinatra](05_fullstack_sinatra/d06_tux.md)
     * [Account Controller](05_fullstack_sinatra/d06_accountcontroller.md)
+  * [Rake](06_full_stack_sinatra/d06_rake.md)
 * [Project #2](06_pairprogramming_project/README.md)
 * [Full Stack Node](07_fullstack_node/README.md)
 * [Backbone.js](08_backbonejs/README.md)
