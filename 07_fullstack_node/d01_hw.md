@@ -87,7 +87,8 @@ Create the following variables and in a comment after the variable, state the ty
 
 * It is a dark time for the Ruby Rebellion.
 * Javascript is on the rise.
-* While you have used Backbone to create models...
+* We use Backbone to create models...
+* Backbone models can *get()* and *set()* properties (similar to Ruby Classes).
 * Create two functions that mimics `model.get` and `model.set` for an object.
 * These functions will be `abilities` on an object called `model`.
 
