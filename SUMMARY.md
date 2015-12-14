@@ -161,6 +161,8 @@
   * [Scope Survey](06_pairprogramming_project/d00_scopesurvey.md)
 * [Full Stack Node](07_fullstack_node/README.md)
   * [From Ruby to Javascript](07_fullstack_node/d01.md)
+    * [Ruby](07_fullstack_node/d01_ruby_reps.md)
+    * [Sinatra](07_fullstack_node/d01_sinatra_reps.md)
     * [Intro to Test Driven Development](07_fullstack_node/d01_intro_to_tdd.md)
     * [Lab: Javascript Recap, Reps, & Resilience](07_fullstack_node/d01_hw.md)
     * [Homework: Setup Node Environment](07_fullstack_node/d01_env.md)
