@@ -161,6 +161,7 @@
   * [Scope Survey](06_pairprogramming_project/d00_scopesurvey.md)
 * [Full Stack Node](07_fullstack_node/README.md)
   * [From Ruby to Javascript](07_fullstack_node/d01.md)
+    * [Intro to Test Driven Development](07_fullstack_node/d01_intro_to_tdd.md)
     * [Lab: Javascript Recap, Reps, & Resilience](07_fullstack_node/d01_hw.md)
     * [Homework: Setup Node Environment](07_fullstack_node/d01_env.md)
 * [Backbone.js](08_backbonejs/README.md)
