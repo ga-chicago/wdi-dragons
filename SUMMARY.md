@@ -176,6 +176,7 @@
     * [Sinatra vs Node](07_fullstack_node/d02_sinatra_vs_node.md)
     * [Node Modules](07_fullstack_node/d02_node_modules.md)
     * [Exercise: Modules](07_fullstack_node/d02_car.md)
+    * [Homework: Requesting with Node](07_fullstack_node/d02_hw.md)
 * [Backbone.js](08_backbonejs/README.md)
 * [Project #3](09_group_project/README.md)
 * [Ruby on Rails](10_rubyonrails/README.md)
