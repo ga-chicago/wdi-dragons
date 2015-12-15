@@ -2,6 +2,7 @@
 
 Tonight you need to use Node.js to make a request to **OMDB**.
 
+- `npm init` a new project.
 - Define an `movie.js` and an `app.js`.
 
 #### movie.js
