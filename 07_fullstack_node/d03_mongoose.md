@@ -18,6 +18,8 @@ var connectionString = 'mongodb://localhost/test';
 mongoose.connect(connectionString);
 ```
 
+*Connect Error?* If you are getting a connection error, you may need to replace "localhost" with 127.0.0.1.
+
 ### Mongoose Events
 These events tell us the status of our connection to MongoDB; this are *VITAL* to debugging.
 - **connected**: connected to database
@@ -53,7 +55,7 @@ MongoDB stores data in each database as **documents**. These documents are store
 Each time you create a **document** in MongoDB, it is given an
 `_id`. MongoDB automatically creates this when each document is created and assigns it a unique ObjectId value. It can be considered the *primary key* of your Document.
 
-#### Schema Types
+#### Schema Data Types
 MongoDB allows the following *schema* types inside of a `document`:
 - String
 - Number
@@ -65,7 +67,6 @@ MongoDB allows the following *schema* types inside of a `document`:
 - ObjectID (used with `_id`)
 
 ### Building a Model with a Schema
-
 Let's create a new file: `/models/tasks.js`; the following Schema will be placed inside of there.
 
 We now need to model some data. For example, say we have a list of tasks we'd like to complete. We're going to store our **tasks** as documents in MongoDB. A task as a Javascript object would look like:
@@ -151,121 +152,4 @@ Task.findByIdAndRemove(id, { params: "object stuff" }, function (err, task) {
   console.log("Deleted:");
   console.log(task);
 });
-```
-
-## 7. RESTful API with MongoDB
-
-In `app.js` we need to include additional files and dependencies. We also need to create a `routes/tasks.js` file to include. Go ahead and do that now.
-
-In **app.js**, add the following:
-```javascript
-// require additional modules
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-
-// require mongodb & model
-require('./models/db'); // db
-require('./models/Tasks'); // model
-
-// include route files in /routes
-var routes = require('./routes/index');
-var tasks = require('./routes/tasks');
-
-// start express app
-var app = express();
-
-// we need to parse req.body.. so we add parsers
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-
-// uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
-app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(require('less-middleware')(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'public')));
-
-// define our http routes and bind those routes to routes in /routes
-app.use('/', routes); // localhost:5000/
-app.use('/api/tasks/', tasks); // localhost:500/api/tasks
-
-```
-
-Our **/routes/tasks.js** file will look just like this:
-
-```javascript
-var express = require('express');
-var router = express.Router();
-
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-
-var mongoose = require('mongoose');
-var Task = require('../models/Tasks');
-
-/* GET /api/tasks listing. */
-router.get('/', function(req, res, next) {
-  console.log(req.body);
-  Task.find(function (err, tasks) {
-    if (err) return next(err);
-    res.json(tasks);
-  });
-});
-
-/* POST /api/tasks */
-router.post('/', function(req, res, next) {
-  console.log(req.body);
-  Task.create(req.body, function (err, task) {
-    if (err) return next(err);
-    res.json(task);
-  });
-});
-
-/* GET /tasks/id */
-// http://localhost:5000/api/tasks/5566a21e1e3a211aa1c63495
-router.get('/:id', function(req, res, next) {
-  Task.findById(req.params.id, function (err, task) {
-    if (err) return next(err);
-    res.json(task);
-  });
-});
-
-/* PUT /tasks/:id */
-router.put('/:id', function(req, res, next) {
-  console.log(req.body);
-  Task.findByIdAndUpdate(req.params.id, req.body, function (err, task) {
-    if (err) return next(err);
-    res.json(task);
-  });
-});
-
-/* PATCH /tasks/:id */
-router.patch('/:id', function(req, res, next) {
-  console.log(req.body);
-  Task.findByIdAndUpdate(req.params.id, req.body, function (err, task) {
-    if (err) return next(err);
-    res.json(task);
-  });
-});
-
-/* DELETE /tasks/:id */
-router.delete('/:id', function(req, res, next) {
-  console.log(req.body);
-  Task.findByIdAndRemove(req.params.id, req.body, function (err, task) {
-    if (err) return next(err);
-    res.json(task);
-  });
-});
-
-module.exports = router;
 ```
