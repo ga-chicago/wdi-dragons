@@ -5,8 +5,6 @@
 
 ### 1. Your First Express project
 
-**If you haven't generated your first application just yet, head back to the first part of this tutorial.**
-
 We're going to build an API in Express as well as render a View (similar to Ruby's MVC pattern).
 
 If you haven't created an `app.js` file, go ahead and do so.
