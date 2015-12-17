@@ -2,6 +2,9 @@
 
 In `app.js` we need to include additional files and dependencies. We also need to create a `routes/tasks.js` file to include. Go ahead and do that now.
 
+
+![http_crud_restful_api.png](http_crud_restful_api.png)
+
 In **app.js**, add the following:
 ```javascript
 // require additional modules
