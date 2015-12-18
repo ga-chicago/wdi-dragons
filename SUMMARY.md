@@ -196,6 +196,8 @@
     * [Full Stack from Scratch](07_fullstack_node/d05_nem.md)
     * [ES6 Classes](07_fullstack_node/d05_es6_classes.md)
     * [Ajax on a View](07_fullstack_node/d05_ajax_on_view.md)
+    * [This Week's Videos](07_fullstack_node/d05_videos.md)
+    * [Homework](07_fullstack_node/d05_hw.md)
 * [Backbone.js](08_backbonejs/README.md)
 * [Project #3](09_group_project/README.md)
 * [Ruby on Rails](10_rubyonrails/README.md)
