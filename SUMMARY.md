@@ -193,6 +193,7 @@
     * [Lab: Express Reps](07_fullstack_node/d04_lab_express_reps.md)
   * [Prototype & 2nd Pass](07_fullstack_node/d05.md)
     * [Prototype](07_fullstack_node/d05_prototypes.md)
+    * [Full Stack from Scratch](07_fullstack_node/d05_nem.md)
 * [Backbone.js](08_backbonejs/README.md)
 * [Project #3](09_group_project/README.md)
 * [Ruby on Rails](10_rubyonrails/README.md)
