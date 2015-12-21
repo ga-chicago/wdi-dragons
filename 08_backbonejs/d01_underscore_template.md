@@ -1,6 +1,6 @@
 ## Underscore Templates
 
-* [Codepend with Backbone, jQuery, Underscore](http://codepen.io/anon/pen/YwWxKw)
+* [Codepen with Backbone, jQuery, Underscore](http://codepen.io/anon/pen/YwWxKw)
 
 #### Ways to render strings with dynamic values
 
