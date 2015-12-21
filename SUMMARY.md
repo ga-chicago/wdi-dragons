@@ -205,6 +205,7 @@
     * [Models](08_backbonejs/d01_models.md)
     * [Views](08_backbonejs/d01_views.md)
     * [Underscore Templates](08_backbonejs/d01_underscore_template.md)
+    * [Binding Backbone to an API](08_backbonejs/d01_review.md)
     * [Videos](08_backbonejs/d01_videos.md)
     * [Homework](08_backbonejs/d01_hw.md)
 * [Project #3](09_group_project/README.md)
