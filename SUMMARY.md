@@ -200,6 +200,7 @@
     * [Homework](07_fullstack_node/d05_hw.md)
 * [Backbone.js](08_backbonejs/README.md)
   * [Introduction to Backbone.js](08_backbonejs/d01.md)
+    * [CDN Quick-Start](08_backbonejs/d01_cdn.md)
     * [JSON Recap](08_backbonejs/d01_json.md)
     * [Models](08_backbonejs/d01_models.md)
     * [Views](08_backbonejs/d01_views.md)
