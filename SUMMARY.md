@@ -205,6 +205,8 @@
     * [Models](08_backbonejs/d01_models.md)
     * [Views](08_backbonejs/d01_views.md)
     * [Underscore Templates](08_backbonejs/d01_underscore_template.md)
+    * [Videos](08_backbonejs/d01_videos.md)
+    * [Homework](08_backbonejs/d01_hw.md)
 * [Project #3](09_group_project/README.md)
 * [Ruby on Rails](10_rubyonrails/README.md)
   * [Getting Started](10_rubyonrails/d00_getting_started.md)
