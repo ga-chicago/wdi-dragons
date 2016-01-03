@@ -223,6 +223,7 @@
   * [Scope Survey](09_group_project/00_scope_survey.md)
   * [Initiation Survey](09_group_project/00_initiation_survey.md)
   * [Teams](09_group_project/00_teams.md)
+  * [Week Schedule](09_group_project/00_schedule.md)
 * [Ruby on Rails](10_rubyonrails/README.md)
   * [Getting Started](10_rubyonrails/d00_getting_started.md)
   * [Rails Cheat Sheet](10_rubyonrails/d00_rails_cheat_sheet.md)
