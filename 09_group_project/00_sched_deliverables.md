@@ -27,5 +27,6 @@ The following conference rooms have been booked out for our class's use this wee
 
 ## 1:1s
 
+- Angie will have 1:1s with each of you during the week (Tuesday through Thursday)
 - You may schedule outcomes 1:1s with Amy at any point from Monday through Thursday
 - Instructional staff will be holding 1:1s with each student for a quick 10 minute chat before Friday
