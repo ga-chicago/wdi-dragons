@@ -6,7 +6,7 @@ Deliverables must be emailed by your team's SCRUM Leader to the instructional st
 * **Tuesday, 10pm CST**: UI Wireframes, User Stories, Datababase Setup, Sample Data
 * **Wednesday, 10pm CST**: Project status update. By now you should be working on the full site.
 * **Thursday, 10pm CST**: MVP (minimal viable proudct) of application - both server and client side.
-* **Friday, 10am CST**: Project Presentations!
+* **Friday, 11am CST**: Project Presentations! Each team gets 10 minutes (5 minutes presentation & 5 minute Q&A)
 
 ## Optional Lectures (will be recorded)
 
@@ -25,3 +25,7 @@ The following conference rooms have been booked out for our class's use this wee
 - Wednesday: East & West Conference Rooms - 10am until 3pm
 - Thursday: East & West Conference Rooms - 10am until 3pm
 
+## 1:1s
+
+- You may schedule outcomes 1:1s with Amy at any point from Monday through Thursday
+- Instructional staff will be holding 1:1s with each student for a quick 10 minute chat before Friday
