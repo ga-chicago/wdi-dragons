@@ -1,3 +1,5 @@
+#Controllers and Routes
+
 ###Rails VS Sinatra
 When a user makes a request to the browser, the web-application needs to know what content to show them.
 Let's compare with code that we have previously written.
