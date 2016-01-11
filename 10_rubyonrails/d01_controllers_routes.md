@@ -55,4 +55,17 @@ delete "/posts/:id"=> "posts#destroy"
 ```
 These routes can also be written with `resources :posts`
 
+## Independent Practice 
+
+
+Re-use the application "blog" we've just created and add three routes to it manually:
+
+* faqs
+* terms_and_conditions
+* team
+
+These three routes will be accessed via a GET request. When the user is accessing a route, the browser should display the name of the route, therefore, you'll need to create the related method in a controller that renders text. 
+
+Then, create a "categories" controller using scaffold, remove the line added in routes.rb by the generator (`resources : categories`) and re-create the seven restful routes matching the 7 methods in the categories controller manually.
+
 
