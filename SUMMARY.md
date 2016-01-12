@@ -231,5 +231,9 @@
     * [Video](10_rubyonrails/d01_video.md)
     * [Controllers and Routes](10_rubyonrails/d01_controllers_routes.md)
     * [Views and Layouts](10_rubyonrails/d01_views_layouts.md)
+  * [Validations and API's](10_rubyonrails/d02.md)
+    * [Validations](10_rubyonrails/d02_validations.md)
+    * [Making Rails API](10_rubyonrails/d02_rails_api.md)
+
 * [React.js](11_reactjs/README.md)
 * [Capstone Project](12_capstone_project/README.md)
