@@ -60,6 +60,6 @@ end
 | 422 | Unprocessable Entity | :unprocessable_entity |
 
 ###Independent Practice
-Add show, edit, and delete functionality in api
-Add at least one private method
-Add at least one validation
+* Add show, edit, and delete functionality in api
+* Add at least one private method
+* Add at least one validation

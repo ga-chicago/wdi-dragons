@@ -13,7 +13,7 @@ end
 ```
 
 ##Independent Practice
-Make your own app with at least one join table.
-Use at least 3 different validations.
-Seed your database using the seed file and `rake db:seed` command.
-Test everything in rails console.
+* Make your own app with at least one join table.
+* Use at least 3 different validations.
+* Seed your database using the seed file and `rake db:seed` command.
+* Test everything in rails console.
