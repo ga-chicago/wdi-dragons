@@ -234,6 +234,9 @@
   * [Validations and API's](10_rubyonrails/d02.md)
     * [Validations](10_rubyonrails/d02_validations.md)
     * [Making Rails API](10_rubyonrails/d02_rails_api.md)
-
-* [React.js](11_reactjs/README.md)
+* [Angular & React.js](11_reactjs/README.md)
+  * [Angular.js 1.x](11_angularjs/Readme.md)
+    * [Introduction to Angular](11_angularjs/Introduction.md)
+    * [Controllers](11_angularjs/AngularApp.md)
+    * [Binding to a REST API](11_angularjs/BindingAngularToRESTApi.md)
 * [Capstone Project](12_capstone_project/README.md)
