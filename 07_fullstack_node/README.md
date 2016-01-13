@@ -1,6 +1,8 @@
-![Javascript as a Server](intro.png)
+
 
 # The MEAN Stack
+
+![Javascript as a Server](intro.png)
 
 <img src="js_everywhere.jpg" alt="JS Meme">
 
