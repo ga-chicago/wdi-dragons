@@ -37,11 +37,6 @@
 
 <img src='http://paweljaniak.co.za/images/digitalocean.png'>
 
-#### Cloud Computing
-
-<img src='https://yonatanschultz.com/content/images/2015/01/aws_logo.jpg'>
-
-<img src='https://www.sparkpost.com/blog/wp-content/uploads/2015/06/HerokuLogo.png'>
 
 ##### Cloud Computing
 
