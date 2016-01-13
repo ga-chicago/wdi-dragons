@@ -2,7 +2,7 @@
 
 You are provided with a PDF of "grey box" drawings. You must create HTML and CSS layouts for **each** of the layouts. Place each layout in a folder inside of `02../your_name/day1_hw/`. You will need an HTML and CSS file for each layout (keep things organized).
 
-#### The [PDF may be viewed here](_homework_css/layouts.pdf)
+#### The [PDF may be viewed here]()
 
 The PDF included "gray box" drawings of page layouts that are increasingly difficult to achieve using CSS. These are intended to be used after introducing students to the basics of `float` and `clear`. These exercises are meant to help you explore the basics and practice to develop a better intuitive sense for how `float` and `clear` work.
 

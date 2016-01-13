@@ -1,9 +1,5 @@
 ## jQuery
 
-<img src="http://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg" alt="jQuery" />
-
-<br>
-
 - **jQuery**'s motto is *write less, do more*
 - jQuery was originally written by John Rezig
 - It is now maintained by a strong community
