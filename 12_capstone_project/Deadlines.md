@@ -25,4 +25,4 @@
 * Complete Github Readme
 * Portfolio page describing and highlighting project
 * Polished application and user interface implemented
-* **You will be presenting your project on 9/18**
+* **You will be presenting your project on 1/29**
