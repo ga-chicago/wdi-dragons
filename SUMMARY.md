@@ -244,3 +244,4 @@
     * [Controllers](11_angularjs/AngularApp.md)
     * [Binding to a REST API](11_angularjs/BindingAngularToRESTApi.md)
 * [Capstone Project](12_capstone_project/README.md)
+  * [Deadlines](12_capstone_project/Deadlines.md)
