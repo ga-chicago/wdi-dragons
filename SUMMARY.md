@@ -237,6 +237,7 @@
   * [CRUD and Auth](10_rubyonrails/d03.md)
     * [CRUD](10_rubyonrails/d03_rails_crud.md)
     * [Authentication](10_rubyonrails/d03_authentication.md)
+  * [Testing](10_rubyonrails/d04.md)
 * [Angular & React.js](11_reactjs/README.md)
   * [Angular.js 1.x](11_angularjs/Readme.md)
     * [Introduction to Angular](11_angularjs/Introduction.md)
