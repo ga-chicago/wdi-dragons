@@ -241,6 +241,7 @@
   * [Testing](10_rubyonrails/d04.md)
     * [Intro](10_rubyonrails/d04_rspec_intro.md)
     * [Rails Rspec](10_rubyonrails/d04_rspec_rails.md)
+  * [2nd Pass Friday](10_rubyonrails/2ndpass.png)
 * [Angular & React.js](11_reactjs/README.md)
   * [Angular.js 1.x](11_angularjs/Readme.md)
     * [Introduction to Angular](11_angularjs/Introduction.md)
