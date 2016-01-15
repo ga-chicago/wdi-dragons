@@ -9,3 +9,8 @@ This week we will be connecting our RESTful APIs to Angular. We will be taking t
 * **Tasker**
 * The *MEAN* way to stay on task!
 * https://github.com/code-for-coffee/tasker
+
+#### Videos
+
+* [Introduction to Angular](https://www.youtube.com/watch?v=NEcekDmWDmc)
+* [Introduction to Angular pt. 2](https://www.youtube.com/watch?v=E4QOiwGnKlE)

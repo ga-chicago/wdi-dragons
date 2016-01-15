@@ -198,6 +198,7 @@
     * [Ajax on a View](07_fullstack_node/d05_ajax_on_view.md)
     * [This Week's Videos](07_fullstack_node/d05_videos.md)
     * [Homework](07_fullstack_node/d05_hw.md)
+  * [Node in Production](07_fullstack_node/production.md)
 * [Backbone.js](08_backbonejs/README.md)
   * [Introduction to Backbone.js](08_backbonejs/d01.md)
     * [CDN Quick-Start](08_backbonejs/d01_cdn.md)
