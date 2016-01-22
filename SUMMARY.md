@@ -261,5 +261,6 @@
     * [Input Validation](11_reactjs/input.md)
     * [Password Validation](11_reactjs/passwordinput.md)
     * [Rendering API Data](11_reactjs/fetching-and-rendering.md)
+  * [Introduction to ES6](11_reactjs/es6_intro.md)
 * [Capstone Project](12_capstone_project/README.md)
   * [Deadlines](12_capstone_project/Deadlines.md)
