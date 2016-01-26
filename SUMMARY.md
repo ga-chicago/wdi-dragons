@@ -262,6 +262,7 @@
     * [Password Validation](11_reactjs/passwordinput.md)
     * [Rendering API Data](11_reactjs/fetching-and-rendering.md)
   * [Introduction to ES6](11_reactjs/es6_intro.md)
-  * [Test Driven Development: API]()
+  * [Test Driven Development: API](11_reactjs/tdd_api.md)
+* [Computer Science](13_cs/README.md)
 * [Capstone Project](12_capstone_project/README.md)
   * [Deadlines](12_capstone_project/Deadlines.md)
