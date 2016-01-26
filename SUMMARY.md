@@ -264,5 +264,8 @@
   * [Introduction to ES6](11_reactjs/es6_intro.md)
   * [Test Driven Development: API](11_reactjs/tdd_api.md)
 * [Computer Science](13_cs/README.md)
+  * [Algorithms](13_cs/algorithms.md)
+    * [Running Average](13_cs/running_alg.md)
+    * [Bubble Sort](13_cs/alg_bubblesort.md)
 * [Capstone Project](12_capstone_project/README.md)
   * [Deadlines](12_capstone_project/Deadlines.md)
