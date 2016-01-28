@@ -7,6 +7,7 @@
 * Describe how to match data exact using a pattern.
 * Create patterns that will match wildcard data.
 
-#### Code Examples
+#### Video/Source Code
 
-* Soon
+* Video: https://youtu.be/-xcuazZShTc
+* Source: https://github.com/code-for-coffee/RegExpTest
