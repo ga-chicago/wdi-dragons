@@ -276,5 +276,6 @@
     * [FizzBuzz](13_cs/int_fizzbuzz.md)
     * [Java to Javascript](13_cs/int_java_to_js.md)
     * [Resources](13_cs/interviewing_res.md)
+  * [Regular Expressions](13_cs/regex.md)
 * [Capstone Project](12_capstone_project/README.md)
   * [Deadlines](12_capstone_project/Deadlines.md)
