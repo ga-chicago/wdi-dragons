@@ -250,7 +250,7 @@
   * [Using Gulp](11_reactjs/gulp.md)
     * [Gulp's Default Task](11_reactjs/gulp_default_task.md)
     * [Project: Gulp Workflow](11_reactjs/gulp_project.md)
-  * [Introduction React.js](11_reactjs/README.md)
+  * [Introduction React.js](11_reactjs/react.md)
     * [Components with JSX](11_reactjs/react_jsx.md)
     * [Components Example](11_reactjs/react_example.md)
     * [Understanding what React Solves](11_reactjs/react_activities.md)
