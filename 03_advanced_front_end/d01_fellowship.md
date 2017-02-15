@@ -73,7 +73,7 @@ $(function() {
   function keepItSecretKeepItSafe() {
     // create a div with an id of 'the-ring'
     var theRing = $('<div>');
-    theRing.attr('id', 'the-ring');
+    theRing.prop('id', 'the-ring');
     // give the div a class of 'magic-imbued-jewelry'
     theRing.addClass('magic-imbued-jewelry');
     // add an event listener so that when a user clicks on the ring, the nazgulScreech function (provided) is invoked
@@ -129,7 +129,7 @@ $(function() {
   function forgeTheFellowShip() {
     // create a new div called 'the-fellowship' within rivendell
     var theFellowship = $('<div>');
-    theFellowship.attr('id', 'the-fellowship');
+    theFellowship.prop('id', 'the-fellowship');
     for(var i = 0; i < fellowshipMembers.length; i++) {
       theFellowship.append(fellowshipMembers.eq(i));
       alert(fellowshipMembers.eq(i).text() + ' has joined the fellowship!');
@@ -179,7 +179,7 @@ $(function() {
     mordor.append(sam);
     // add a div with an id of 'mount-doom' to Mordor
     var mountDoom = $('<div>');
-    mountDoom.attr('id', 'mount-doom');
+    mountDoom.prop('id', 'mount-doom');
     mordor.append(mountDoom);
   }
 
@@ -191,7 +191,7 @@ $(function() {
   function weWantsIt() {
     // Create a div with an id of 'gollum' and add it to Mordor
     gollum = $('<div>');
-    gollum.attr('id', 'gollum');
+    gollum.prop('id', 'gollum');
     theRing = frodo.find('#the-ring').eq(0);
     gollum.append(theRing);
     // Remove the ring from Frodo and give it to Gollum
@@ -220,7 +220,7 @@ $(function() {
 
   function golemGotCash() {
     var bling = $('<div>');
-    bling.attr('id', 'lord-of-the-bling');
+    bling.prop('id', 'lord-of-the-bling');
     $('body').append(bling);
   }
 
