@@ -1,23 +1,7 @@
 ## 5.1 Structured Query Language (SQL)
 
-#### Agenda
 
-*	Quiz
-* Installing Postgres
-* Using the Command line to access Postgres
-* Creating a Database
-* Connecting to a database
-* Creating Tables inside of a Database
-* Adding rows to a database
-* Selecting rows from a database
-* Deleting rows from a database
-* Migrations
 
-#### QUIZ
-1.  ERDs allow you to visualize.... _________________.
-2.	Databases store the attributes of ___________________ in structures called ___________________.
-3.  Tables can be linked together by natural _________________.
-4.  What are some types of relationships between tables?
 
 
 
@@ -91,7 +75,7 @@ Check this syntax out:
 ```sql
 INSERT INTO students (name, email)
 VALUES
-('James', 'jamest@ga.co');
+('Jimbo', 'jimbo@ga.co');
 ```
 
 * We don't need to include a Primary Key.
