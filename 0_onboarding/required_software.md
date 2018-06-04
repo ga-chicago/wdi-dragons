@@ -48,16 +48,16 @@ If you run into any problems installing this software, please alert an instructo
 
 * **What**: An extension that allows you to search the Mozilla Developer Network through the Chrome Omnibox.
 * **Why**: It is a great resource. Also, W3Schools sucks (and any professional in this industry will poke fun at you if you use it).
-* **Instructions**: Visit [https://chrome.google.com/webstore/detail/mdn-search/ffpifaemeofjmncjdbegmbpcdaemkeoc](here) and install the extension.
+* **Instructions**: Visit https://chrome.google.com/webstore/detail/mdn-search/ffpifaemeofjmncjdbegmbpcdaemkeoc and install the extension.
 
 #### Tape CSS
 
 * **What**: A graphical extension that helps measure HTML elements on the page.
 * **Why**: You don't want your design and websites to look bad, do you?
-* **Instructions**: Visit [https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb](here) and install the extension.
+* **Instructions**: Visit https://chrome.google.com/webstore/detail/tape/jmfleijdbicilompnnombcbkcgidbefb and install the extension.
 
 #### JSON View
 
 * **What**: An extension that makes JSON look pretty.
 * **Why**: To easily navigate JSON files using a tree-view.
-* **Instructions**: Visit [https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en](here) and install the extension.
+* **Instructions**: visit https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en and install the extension.
