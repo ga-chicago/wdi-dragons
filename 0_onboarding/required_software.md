@@ -12,11 +12,11 @@ If you run into any problems installing this software, please alert an instructo
 * **Why**: WDI requires that we
 * **Instructions**: On newer versions of OS X, search the Mac App Store for **XCode** and download/install it (it is free). On older versions that do not have the Mac App Store, you will need to create a *free* Apple account and download it at https://developer.apple.com/xcode/downloads/. Once you install XCode, please open it and accept the EULA (feel free to close the app once you complete this).
 
-#### Atom Text Editor
+#### Atom Text Editor or Sublime
 
 * **What**: A modern day, open source text editor.
 * **Why**: It was created by the team at Github, is open source, it is free, and is a fantastic text editor for multiple languages.
-* **Instructions**: Visit https://atom.io/ to download Atom. Drag/drop the application to your Mac application folder (and pin it to your dock). We use this every single day in WDI.
+* **Instructions**: Visit https://atom.io/ to download Atom. Drag/drop the application to your Mac application folder (and pin it to your dock). We use this every single day in WDI. OR https://www.sublimetext.com/3
 
 #### Google Chrome
 
